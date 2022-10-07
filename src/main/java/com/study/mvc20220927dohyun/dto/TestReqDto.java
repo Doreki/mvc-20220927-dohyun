@@ -8,5 +8,9 @@ public class TestReqDto {
     private String name;
     private int number;
 
-
+    public TestReqDto(String strData, String name, int number) {
+        this.strData = strData;
+        this.name = name;
+        this.number = number;
+    }
 }
